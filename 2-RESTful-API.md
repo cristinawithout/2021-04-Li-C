@@ -1,11 +1,39 @@
-TASK
+# SUMMARY
 
-Using the same requirements as in Part 1 (Database) of this exercise: 
+In this exercise, you'll use the same requirements as in Part 1 (Database). The requirements are provided again below.
 
-Complete the API spec with the endpoints, the HTTP method each endpoint supports, the response body, and any query parameters needed. When done, present your proposal to your team lead and describe how the UI will be implemented against this API. 
+Again, use any resources available to you.
 
-For each endpoint, include:
+# REQUIREMENTS
+
+* The application SHALL have the following sections: 
+  * Flights – A list of flights. 
+    * Details for each flight contain: 
+      * Number – The fight designator 
+      * Origin airport – The airport from which the flight will leave 
+      * Destination airport – The airport to which the flight will arrive 
+      * Departure date 
+      * Arrival date 
+      * Passengers – Passenger data consists of First Name, Last Name, and Flight 
+  * Airports – A list of airports. 
+    * Detail for each airport contain: 
+      * Name 
+      * ICAO – A 4-character code assigned by the International Civil Aviation Org. 
+      *  IATA – A 3-character code assigned by the International Air Transport Assoc. 
+* Each section SHALL have a screen with a list of items.  
+* Clicking on an item from the list SHALL navigate to a page with detail about the item. 
+* Users SHALL be able to read, create, update and delete each item. 
+* Passenger data SHALL be populated from another application and must be stored locally. 
+* Passenger data SHALL be read-only.
+
+
+# TASK
+
+Complete a spec for the API endpoints, including:
+
 * URI
 * HTTP methods
 * Response body
-* Query parameters each endpoint will need
+* Query parameters each endpoint will need 
+
+When done, present your proposal to your team lead and describe how the UI will be implemented against this API. 

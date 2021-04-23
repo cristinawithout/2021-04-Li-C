@@ -67,6 +67,7 @@ and how you work with the team, not your Ember expertise.)
  * Uses a RESTful API using the JSON:API data format. - JSON:API Spec https://jsonapi.org/ 
  * The Ember application will use Ember Data to request and normalize the data.  
  * Since the API meets the JSON:API spec serializing and normalizing the data is handled out of the box. 
+ * Each entity has its own UUID as an identifier.
 
 
 ## Endpoints
@@ -74,7 +75,9 @@ and how you work with the team, not your Ember expertise.)
 ### /airports
 
 HTTP Method: GET
+
 Query Parameters: None
+
 Response Body:
 
 {
@@ -88,7 +91,9 @@ Response Body:
 ### /flights/:id
 
 HTTP Method: GET
+
 Query Parameters: 
+
 Response Body:
 
 ```

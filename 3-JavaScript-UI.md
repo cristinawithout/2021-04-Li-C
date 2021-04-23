@@ -80,15 +80,40 @@ Query Parameters: None
 
 Response Body:
 
+```
 {
+  "data": [
+    {
+      "type": "airport",
+      "id": "333a7566-f036-4b62-a90e-18b9a7421400",
+      "attributes": {
+        "name": "Los Angeles International",
+        "icao": "KLAX",
+        "iata": "LAX"
+      }
+    }
+  ]
 }
+```
 
 
 ### /airports/:id
 
-### /flights
+```
+{
+  "data": {
+    "type": "airport",
+    "id": "333a7566-f036-4b62-a90e-18b9a7421400",
+    "attributes": {
+      "name": "Los Angeles International",
+      "icao": "KLAX",
+      "iata": "LAX"
+    }
+  }
+}
+```
 
-### /flights/:id
+### /flights
 
 HTTP Method: GET
 
@@ -96,17 +121,64 @@ Query Parameters:
 
 Response Body:
 
+
+
+### /flights/:id
+
+HTTP Method: GET
+
+Query Parameters: 
+
+* origin_id: ID of the origin airport
+* destination_id: ID of the destination airport
+
+Response Body:
+
 ```
 {
   "data": {
     "type": "flight",
-    "id": "1",
+    "id": "cec71818-ab6f-4fdd-ba2f-2bef3bad9a25",
     "attributes": {
-      "name": "Los Angeles International",
-      "icao": "KLAX",
-      "iata": "LAX"
+      "number": "123",
+      "departure_time": "2021-08-28T01:26:00Z",
+      "arrival_time": "2021-08-28T12:18:00Z"
+    },
+    "relationships": {
+      "origin": {
+        "data": {
+          "type": "airport",
+          "id": "ddea88bb-50bc-4300-8a60-da99aa81e9bf"
+        }
+      },
+      "destination": {
+        "data": {
+          "type": "airport",
+          "id": "5355f68f-c147-4511-8a63-eb812873c8d0"
+        }
+      }
     }
-  }
+  },
+  "included": [
+    {
+      "type": "airport",
+      "id": "ddea88bb-50bc-4300-8a60-da99aa81e9bf",
+      "attributes": {
+        "name": "Airport 1",
+        "icao": "KABC",
+        "iata": "ABC"
+      }
+    },
+    {
+      "type": "airport",
+      "id": "5355f68f-c147-4511-8a63-eb812873c8d0",
+      "attributes": {
+        "name": "Airport 2",
+        "icao": "KXYZ",
+        "iata": "XYZ"
+      }
+    }
+  ]
 }
 ```
 

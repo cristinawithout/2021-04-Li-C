@@ -19,13 +19,15 @@ and how you work with the team, not your Ember expertise.)
    * “About” 
  * The Home screen SHALL have welcome text and images. 
  * All pages linked from the navigation SHALL have an h2 tag with text that matches the text in the navigation.  
- * The airports screen SHALL have a list of airports. Clicking on an airport from the list SHALL navigate to the airport item screen. 
+ * The airports screen SHALL have a list of airports.
+   Clicking on an airport from the list SHALL navigate to the airport item screen. 
  * Airport item screen SHALL include: 
    * H2 tag with airport name 
    * Airport details 
    * A list of departing flights 
    * A list of arriving flights 
- * The flight screen SHALL show a list of flights. Clicking on a flight from the list SHALL navigate to the flight item screen.  
+ * The flight screen SHALL show a list of flights. 
+   Clicking on a flight from the list SHALL navigate to the flight item screen.  
  * Flight item screen SHALL include: 
    * H2 tag with flight number 
    * Flight details 
@@ -47,7 +49,8 @@ and how you work with the team, not your Ember expertise.)
  * The application mocks HTTP requests with Mirage.  
    * The mocks are fully complete. You should not need to modify the mock data in the “mirage” directory.  
    * Mirage has been configured to output API requests and responses to the console. 
- * In Twiddle, if you use File > Add, the component JS files are created using syntax for “Native Components”. The examples in this application and the Ember guides use “Classic Component” syntax. You may create components to use “Classic Component” syntax. 
+ * In Twiddle, if you use File > Add, the component JS files are created using syntax for “Native Components”. 
+   The examples in this application and the Ember guides use “Classic Component” syntax. You may create components to use “Classic Component” syntax. 
  * If you are familiar with Ember development, it’s useful to you to know: 
    * In Twiddle, the environment.js file is not used. All ENV values, including “environment” have to be set in twiddle.json. 
    * This application uses the conventional structure, not the pods structure. 

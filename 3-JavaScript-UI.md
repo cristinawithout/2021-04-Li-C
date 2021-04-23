@@ -34,8 +34,8 @@ and how you work with the team, not your Ember expertise.)
    * A list of the passengers on the flight 
  * The About screen has have a description and image about the application. 
  * In any lists throughout the application: 
-   * Airports SHALL display as “<Image> <Airport Name> (<IATA>)”. 
-   * Flights SHALL display as “<Number>: <Origin IATA> to <Destination IATA>”. 
+   * Airports SHALL display as “[Image] [Airport Name] ([IATA])”. 
+   * Flights SHALL display as “[Number]: [Origin IATA] to <Destination IATA>”. 
    * Passengers SHALL display as “<First Name> <Last Name>”. 
 
 # NOTES FROM YOUR TEAM LEAD

@@ -45,7 +45,7 @@ and how you work with the team, not your Ember expertise.)
  * The "Run Tests" button in Twiddle doesn't work.
  * To run tests in Twiddle: Update twiddle.json.  
    * Set “options.enable-testing” to true. 
-   * Set “ENV.environment” to “test”. 
+   * Set “ENV.environment” to “test”. (When "development", the dev mock data will be loaded an interfere with test data.)
  * The application mocks HTTP requests with Mirage.  
    * The mocks are fully complete. You should not need to modify the mock data in the “mirage” directory.  
    * Mirage has been configured to output API requests and responses to the console. 

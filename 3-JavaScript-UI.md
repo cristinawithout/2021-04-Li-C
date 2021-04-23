@@ -124,7 +124,7 @@ Query Parameters:
 
 Reponse Body:
 
-Same as /flights/:id, but returns an array of flights in "data" per JSON:API spec.
+Same as /flights/:id, but returns an array of flight objects in "data" per JSON:API spec.
 
 ### /flights/:id
 

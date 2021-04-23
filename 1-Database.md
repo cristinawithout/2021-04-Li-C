@@ -11,7 +11,7 @@ Make use of any resources available to you, including any internet search tools 
 * The application SHALL have the following sections: 
   * Flights – A list of flights. 
     * Details for each flight contain: 
-      * Number – The fight designator 
+      * Number – The flight designator 
       * Origin airport – The airport from which the flight will leave 
       * Destination airport – The airport to which the flight will arrive 
       * Departure date 

@@ -3,7 +3,7 @@
 In this exercise, you're developing the single page application described in the requirements for the previous exercises.
 
 The product owner has provided the minimum viable product (MVP) requirements below for the user interface. 
-Your team lead has provided a functional specification and notes for you.
+Your team lead has provided a (condensed) functional specification and notes for you.
 
 This is an Ember.js application that, for intervie purposes, you'll be developing the application in an online IDE. 
 (Don't worry if you've never used Ember before. The purpose is to test your problem solving 
@@ -54,4 +54,33 @@ and how you work with the team, not your Ember expertise.)
  * If you are familiar with Ember development, it’s useful to you to know: 
    * In Twiddle, the environment.js file is not used. All ENV values, including “environment” have to be set in twiddle.json. 
    * This application uses the conventional structure, not the pods structure. 
+
+# FUNCTIONAL SPEC
+
+## General
+
+ * The UI is developed using the Ember.js framework version 3.8. 
+   * Ember Docs - https://api.emberjs.com/ember/3.8 
+   * Ember Data Docs - https://api.emberjs.com/ember-data/3.8 
+   * Ember Guides - https://guides.emberjs.com/v3.8.0/ 
+ * The UI is styled using Bootstrap 3 https://getbootstrap.com/docs/3.3/css/ 
+ * Uses a RESTful API using the JSON:API data format. - JSON:API Spec https://jsonapi.org/ 
+ * The Ember application will use Ember Data to request and normalize the data.  
+ * Since the API meets the JSON:API spec serializing and normalizing the data is handled out of the box. 
+
+
+## Endpoints
+
+### /airports
+
+### /airports/:id
+
+### /flights
+
+### /flights/:id
+
+### /passengers
+
+### /passengers/:id
+
 

@@ -1,8 +1,10 @@
 # SUMMARY
 
-In this exercise, you will be requirements to implement against and/or tasks to complete. Make use of any resources available to you, including any internet search tools or documentation sites. 
+In this exercise, you're designing the database schema for a single page application that handles flight and passenger information. (Note: You do not need to worry about user authentication or managing user data.) 
 
-You’re developing the full stack for a single page application that handles flight and passenger information. You do not need to worry about user authentication or managing user data. 
+Your requirements and the task are described below.
+
+Make use of any resources available to you, including any internet search tools or documentation sites.
 
 # REQUIREMENTS 
 

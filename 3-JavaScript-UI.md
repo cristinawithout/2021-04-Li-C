@@ -80,6 +80,10 @@ Query Parameters: None
 
 Response Body:
 
+Same as /airports/:id, but returns an array of airport objects in "data" per JSON:API spec.
+
+Example:
+
 ```
 {
   "data": [

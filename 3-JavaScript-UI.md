@@ -73,11 +73,37 @@ and how you work with the team, not your Ember expertise.)
 
 ### /airports
 
+HTTP Method: GET
+Query Parameters: None
+Response Body:
+
+{
+}
+
+
 ### /airports/:id
 
 ### /flights
 
 ### /flights/:id
+
+HTTP Method: GET
+Query Parameters: 
+Response Body:
+
+```
+{
+  "data": {
+    "type": "flight",
+    "id": "1",
+    "attributes": {
+      "name": "Los Angeles International",
+      "icao": "KLAX",
+      "iata": "LAX"
+    }
+  }
+}
+```
 
 ### /passengers
 

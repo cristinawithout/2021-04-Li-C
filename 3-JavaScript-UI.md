@@ -190,8 +190,48 @@ Query Parameters:
 
 * flight_id: The ID for a single flight to obtain passengers for.
 
+Response Body:
+
+Same as /passenger/:id, but returns an array of passenger objects in "data" per JSON:API spec.
+
 ### /passengers/:id
 
+HTTP Method: GET
 
+Query Parameters: None
+
+Response Body:
+
+```
+{
+  "data": {
+    "type": "passenger",
+    "id": "5dcaa83e-f214-4dc2-a2cb-5599287f517b",
+    "attributes": {
+      "first_name": "Joe",
+      "last_name": "Smith"
+    },
+    "relationships": {
+      "flight": {
+        "data": {
+          "type": "flight",
+          "id": "cec71818-ab6f-4fdd-ba2f-2bef3bad9a25"
+        }
+      }
+    }
+  },
+  "included": [
+    {
+      "type": "flight",
+      "id": "cec71818-ab6f-4fdd-ba2f-2bef3bad9a25",
+      "attributes": {
+        "number": "123",
+        "departure_time": "2021-08-28T01:26:00Z",
+        "arrival_time": "2021-08-28T12:18:00Z"
+      }
+    }
+  ]
+}
+```
 
 

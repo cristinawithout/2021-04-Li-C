@@ -35,8 +35,8 @@ and how you work with the team, not your Ember expertise.)
  * The About screen has have a description and image about the application. 
  * In any lists throughout the application: 
    * Airports SHALL display as “[Image] [Airport Name] ([IATA])”. 
-   * Flights SHALL display as “[Number]: [Origin IATA] to <Destination IATA>”. 
-   * Passengers SHALL display as “<First Name> <Last Name>”. 
+   * Flights SHALL display as “[Number]: [Origin IATA] to [Destination IATA]”. 
+   * Passengers SHALL display as “[First Name] [Last Name]”. 
 
 # NOTES FROM YOUR TEAM LEAD
  * The application is located at: https://ember-twiddle.com/b38580216c196ef8668d1dbdb5c651f2

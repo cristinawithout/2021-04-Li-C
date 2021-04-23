@@ -184,6 +184,14 @@ Response Body:
 
 ### /passengers
 
+HTTP Method: GET
+
+Query Parameters:
+
+* flight_id: The ID for a single flight to obtain passengers for.
+
 ### /passengers/:id
+
+
 
 

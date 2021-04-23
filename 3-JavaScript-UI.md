@@ -13,10 +13,10 @@ and how you work with the team, not your Ember expertise.)
 
  * The application SHALL have a title in h1 tag with text “Flight Tracker”. 
  *  The application SHALL have navigation links below the title to: 
-   * “Home” 
-   * “Airports”  
-   * “Flights” 
-   * “About” 
+    * “Home” 
+    * “Airports”  
+    * “Flights” 
+    * “About” 
  * The Home screen SHALL have welcome text and images. 
  * All pages linked from the navigation SHALL have an h2 tag with text that matches the text in the navigation.  
  * The airports screen SHALL have a list of airports.

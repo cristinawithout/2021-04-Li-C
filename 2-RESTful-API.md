@@ -1,8 +1,8 @@
 # SUMMARY
 
-In this exercise, you'll use the same requirements as in Part 1 (Database). The requirements are provided again below.
+In this exercise, you're working on the same project as the previous exercise (Database). The same requirements are provided again below for quick reference.
 
-Again, use any resources available to you.
+This time, you'll be designing the RESTful API. Use any resources available to you.
 
 # REQUIREMENTS
 

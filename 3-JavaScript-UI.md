@@ -119,18 +119,18 @@ HTTP Method: GET
 
 Query Parameters: 
 
-Response Body:
+* origin_id: ID of the origin airport
+* destination_id: ID of the destination airport
 
+Reponse Body:
 
+Same as /flights/:id, but returns an array of flights in "data" per JSON:API spec.
 
 ### /flights/:id
 
 HTTP Method: GET
 
-Query Parameters: 
-
-* origin_id: ID of the origin airport
-* destination_id: ID of the destination airport
+Query Parameters: None
 
 Response Body:
 

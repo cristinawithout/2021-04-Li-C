@@ -13,7 +13,7 @@ and how you work with the team, not your Ember expertise.)
  * The application is located at: https://ember-twiddle.com/b38580216c196ef8668d1dbdb5c651f2
  * The PO has seen and approved the "Home”, "Airports", and “About” screen content. 
  * All tests must pass when done. You may add as many tests as needed. Tests can also be removed or updated if appropriate.
- * The "Run Tests" button in Twiddle doesn't work.
+ * The "Run Tests" button in Twiddle doesn't work. Because TDD is difficult in this interface, you can identify the tests for a component instead of TDD.
  * To run tests in Twiddle: Update twiddle.json.  
    * Set “options.enable-testing” to true. 
    * Set “ENV.environment” to “test”. (When "development", the dev mock data will be loaded an interfere with test data.)

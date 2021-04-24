@@ -9,6 +9,23 @@ This is an Ember.js application that, for intervie purposes, you'll be developin
 (Don't worry if you've never used Ember before. The purpose is to test your problem solving 
 and how you work with the team, not your Ember expertise.)
 
+# NOTES FROM YOUR TEAM LEAD
+ * The application is located at: https://ember-twiddle.com/b38580216c196ef8668d1dbdb5c651f2
+ * The PO has seen and approved the "Home”, "Airports", and “About” screen content. 
+ * All tests must pass when done. You may add as many tests as needed. Tests can also be removed or updated if appropriate.
+ * The "Run Tests" button in Twiddle doesn't work.
+ * To run tests in Twiddle: Update twiddle.json.  
+   * Set “options.enable-testing” to true. 
+   * Set “ENV.environment” to “test”. (When "development", the dev mock data will be loaded an interfere with test data.)
+ * The application mocks HTTP requests with Mirage.  
+   * The mocks are fully complete. You should not need to modify the mock data in the “mirage” directory.  
+   * Mirage has been configured to output API requests and responses to the console. 
+ * In Twiddle, if you use File > Add, the component JS files are created using syntax for “Native Components”. 
+   The examples in this application and the Ember guides use “Classic Component” syntax. You may create components to use “Classic Component” syntax. 
+ * If you are familiar with Ember development, it’s useful to you to know: 
+   * In Twiddle, the environment.js file is not used. All ENV values, including “environment” have to be set in twiddle.json. 
+   * This application uses the conventional structure, not the pods structure. 
+
 # MVP REQUIREMENTS
 
  * The application SHALL have a title in h1 tag with text “Flight Tracker”. 
@@ -38,22 +55,6 @@ and how you work with the team, not your Ember expertise.)
    * Flights SHALL display as “[Number]: [Origin IATA] to [Destination IATA]”. 
    * Passengers SHALL display as “[First Name] [Last Name]”. 
 
-# NOTES FROM YOUR TEAM LEAD
- * The application is located at: https://ember-twiddle.com/b38580216c196ef8668d1dbdb5c651f2
- * The PO has seen and approved the "Home” and “About” screen content. (Nothing else was ready to review with the PO.) 
- * All tests must pass when done. You may add as many tests as needed. Tests can also be removed or updated if appropriate.
- * The "Run Tests" button in Twiddle doesn't work.
- * To run tests in Twiddle: Update twiddle.json.  
-   * Set “options.enable-testing” to true. 
-   * Set “ENV.environment” to “test”. (When "development", the dev mock data will be loaded an interfere with test data.)
- * The application mocks HTTP requests with Mirage.  
-   * The mocks are fully complete. You should not need to modify the mock data in the “mirage” directory.  
-   * Mirage has been configured to output API requests and responses to the console. 
- * In Twiddle, if you use File > Add, the component JS files are created using syntax for “Native Components”. 
-   The examples in this application and the Ember guides use “Classic Component” syntax. You may create components to use “Classic Component” syntax. 
- * If you are familiar with Ember development, it’s useful to you to know: 
-   * In Twiddle, the environment.js file is not used. All ENV values, including “environment” have to be set in twiddle.json. 
-   * This application uses the conventional structure, not the pods structure. 
 
 # FUNCTIONAL SPEC
 

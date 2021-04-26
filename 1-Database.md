@@ -1,8 +1,8 @@
 # SUMMARY
 
-In this exercise, you're designing the database schema for a single page application that handles flight and passenger information. (Note: You do not need to worry about user authentication or managing user data.) 
+In this exercise, you're designing the database schema for a single page application that handles flight and passenger information. Your requirements and the task are described below. (Note: You do not need to worry about user authentication or managing user data.)
 
-Your requirements and the task are described below.
+The interviewers are your product owner and your team lead. Ask them questions as you would if you were working with your team. You're encouraged to verbalize your thought process as you work.
 
 Make use of any resources available to you, including any internet search tools or documentation sites.
 

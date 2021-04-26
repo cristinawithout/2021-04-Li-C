@@ -25,11 +25,12 @@ Make use of any resources available to you, including any internet search tools 
 * Each section SHALL have a screen with a list of items.  
 * Clicking on an item from the list SHALL navigate to a page with detail about the item. 
 * Users SHALL be able to read, create, update and delete each item. 
-* Passenger data SHALL be populated from another application and must be stored locally. 
+* Passenger data SHALL be populated from another application and must be stored locally. Each passenger belongs to only 1 flight.
 * Passenger data SHALL be read-only.
  
 # TASK
  
-* Design the relational database for the flight, airport, and passenger data.  
+* Design the relational database for the flight, airport, and passenger data.
+* How would your design change if each passenger can belong to multiple flights?
 * Write the SQL query to get all passengers for a specific flight. 
 * Write the SQL query to get all flights leaving a specific airport on a specific date. 

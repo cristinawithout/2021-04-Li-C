@@ -30,6 +30,5 @@ Make use of any resources available to you, including any internet search tools 
 # TASK
  
 * Design the relational database for the flight, airport, and passenger data.
-* How would your design change if each passenger can belong to multiple flights?
 * Write the SQL query to get all passengers for a specific flight. 
 * Write the SQL query to get all flights leaving a specific airport on a specific date. 

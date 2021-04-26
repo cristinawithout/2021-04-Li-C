@@ -9,7 +9,7 @@ Again, work with your team and use any resources available to you.
 * The application SHALL have the following sections: 
   * Flights – A list of flights. 
     * Details for each flight contain: 
-      * Number – The fight designator 
+      * Number – The flight designator 
       * Origin airport – The airport from which the flight will leave 
       * Destination airport – The airport to which the flight will arrive 
       * Departure date 
@@ -23,8 +23,7 @@ Again, work with your team and use any resources available to you.
 * Each section SHALL have a screen with a list of items.  
 * Clicking on an item from the list SHALL navigate to a page with detail about the item. 
 * Users SHALL be able to read, create, update and delete each item. 
-* Passenger data SHALL be populated from another application and must be stored locally. 
-* Passenger data SHALL be read-only.
+* Each passenger belongs to only 1 flight. Passenger data SHALL be populated from another application and must also be stored locally. Passenger data SHALL be read-only.
 
 
 # TASK

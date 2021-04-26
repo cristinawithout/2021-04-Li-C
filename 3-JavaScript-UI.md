@@ -27,14 +27,8 @@ and how you work with the team, not your Ember expertise.)
 
 # MVP REQUIREMENTS
 
- * The application SHALL have a title in h1 tag with text “Flight Tracker”. 
- *  The application SHALL have navigation links below the title to: 
-    * “Home” 
-    * “Airports”  
-    * “Flights” 
-    * “About” 
+## Done
  * The Home screen SHALL have welcome text and images. 
- * All pages linked from the navigation SHALL have an h2 tag with text that matches the text in the navigation.  
  * The airports screen SHALL have a list of airports.
    Clicking on an airport from the list SHALL navigate to the airport item screen. 
  * Airport item screen SHALL include: 
@@ -42,13 +36,22 @@ and how you work with the team, not your Ember expertise.)
    * Airport details 
    * A list of departing flights 
    * A list of arriving flights 
+ * The About screen has have a description and image about the application.
+
+## To-Do/In Progress
+ * The application SHALL have a title in h1 tag with text “Flight Tracker”. 
+ * The application SHALL have navigation links below the title to: 
+    * “Home” 
+    * “Airports”  
+    * “Flights” 
+    * “About” 
+ * All pages linked from the navigation SHALL have an h2 tag with text that matches the text in the navigation.  
  * The flight screen SHALL show a list of flights. 
    Clicking on a flight from the list SHALL navigate to the flight item screen.  
  * Flight item screen SHALL include: 
    * H2 tag with flight number 
    * Flight details 
    * A list of the passengers on the flight 
- * The About screen has have a description and image about the application. 
  * In any lists or references to the item throughout the application: 
    * Airports SHALL display as “[Image] [Airport Name] ([IATA])”. 
    * Flights SHALL display as “[Number]: [Origin IATA] to [Destination IATA]”. 

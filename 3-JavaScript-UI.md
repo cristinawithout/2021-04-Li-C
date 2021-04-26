@@ -10,7 +10,6 @@ This is an Ember.js application that, for intervie purposes, you'll be developin
 and how you work with the team, not your Ember expertise.)
 
 # NOTES FROM YOUR TEAM LEAD
- * The application is located at: https://ember-twiddle.com/b38580216c196ef8668d1dbdb5c651f2
  * The PO has seen and approved the "Home”, "Airports", and “About” screen content. 
  * All tests must pass when done. You may add as many tests as needed. Tests can also be removed or updated if appropriate.
  * The "Run Tests" button in Twiddle doesn't work. Because TDD is difficult in this interface, you can identify the tests for a component instead of TDD.

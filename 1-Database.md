@@ -25,8 +25,7 @@ Make use of any resources available to you, including any internet search tools 
 * Each section SHALL have a screen with a list of items.  
 * Clicking on an item from the list SHALL navigate to a page with detail about the item. 
 * Users SHALL be able to read, create, update and delete each item. 
-* Passenger data SHALL be populated from another application and must be stored locally. Each passenger belongs to only 1 flight.
-* Passenger data SHALL be read-only.
+* Each passenger belongs to only 1 flight. Passenger data SHALL be populated from another application and must also be stored locally. Passenger data SHALL be read-only.
  
 # TASK
  

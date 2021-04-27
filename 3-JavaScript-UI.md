@@ -11,12 +11,14 @@ and how you work with the team, not your Ember expertise.)
 
 # NOTES FROM YOUR TEAM LEAD
  * The PO has seen and approved the "Home”, "Airports", and “About” screen content. 
- * All tests must pass when done. You may add as many tests as needed. Tests can also be removed or updated if appropriate.
- * The "Run Tests" button in Twiddle doesn't work. Because TDD is difficult in this interface, you can identify the tests for a component instead of TDD.
- * To run tests in Twiddle: Update twiddle.json.  
-   * Set “options.enable-testing” to true. 
-   * Set “ENV.environment” to “test”. (When "development", the dev mock data will be loaded an interfere with test data.)
- * The application mocks HTTP requests with Mirage.  
+ * Tests:
+   * All tests must pass when done.
+   * The "Run Tests" button in Twiddle doesn't work, so because TDD is difficult in this interface, new tests aren't required.
+   * To run tests in Twiddle: Update twiddle.json.  
+     * Set “options.enable-testing” to true. 
+     * Set “ENV.environment” to “test”. (When "development", the dev mock data will be loaded an interfere with test data.)
+ * Mocks:
+   * The application mocks HTTP requests with Mirage.  
    * The mocks are fully complete. You should not need to modify the mock data in the “mirage” directory.  
    * Mirage has been configured to output API requests and responses to the console. 
  * In Twiddle, if you use File > Add, the component JS files are created using syntax for “Native Components”. 

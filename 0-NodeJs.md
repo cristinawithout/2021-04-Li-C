@@ -8,6 +8,7 @@ You may assume:
  * Each lottery ticket and the set of winning numbers has six numbers. 
  * You can create any functions you like, but please limit yourself to the standard NodeJS library (ES6+ is ok).
 
+```
 const WINNING_NUMBERS = [25, 20, 27, 28, 58, 59];
 
 const TICKETS = [
@@ -17,5 +18,5 @@ const TICKETS = [
     [25, 19, 27, 28, 58, 59],
     [25, 58, 28, 59, 20, 27]
 ];
-
+```
 

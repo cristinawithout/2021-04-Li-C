@@ -30,6 +30,7 @@ and how you work with the team, not your Ember expertise.)
 # MVP REQUIREMENTS
 
 ## Done
+ * The application SHALL have a title in h1 tag with text “Flight Tracker”. 
  * The Home screen SHALL have welcome text and images. 
  * The airports screen SHALL have a list of airports.
    Clicking on an airport from the list SHALL navigate to the airport item screen. 
@@ -41,7 +42,6 @@ and how you work with the team, not your Ember expertise.)
  * The About screen has have a description and image about the application.
 
 ## To-Do/In Progress
- * The application SHALL have a title in h1 tag with text “Flight Tracker”. 
  * The application SHALL have navigation links below the title to: 
     * “Home” 
     * “Airports”  

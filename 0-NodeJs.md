@@ -18,5 +18,7 @@ const TICKETS = [
     [25, 19, 27, 28, 58, 59],
     [25, 58, 28, 59, 20, 27]
 ];
+
+// TODO: Determine if any tickets are jackpot winners
 ```
 

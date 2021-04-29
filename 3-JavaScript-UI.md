@@ -10,22 +10,22 @@ This is an Ember.js application that, for intervie purposes, you'll be developin
 and how you work with the team, not your Ember expertise.)
 
 # NOTES FROM YOUR TEAM LEAD
- * The PO has seen and approved the "Home”, "Airports", and “About” screen content. 
- * Tests:
-   * All tests must pass when done.
+ * You're developing this application in an online editor called Twiddle.
+   * In Twiddle, if you use File > Add, the component JS files are created using syntax for “Native Components”. The examples in this application and the Ember guides use “Classic Component” syntax. You may create components to use “Classic Component” syntax. 
+ * Running Tests:
    * The "Run Tests" button in Twiddle doesn't work, so because TDD is difficult in this interface, new tests aren't required.
    * To run tests in Twiddle: Update twiddle.json.  
      * Set “options.enable-testing” to true. 
      * Set “ENV.environment” to “test”. (When "development", the dev mock data will be loaded an interfere with test data.)
+ * If you are familiar with Ember development, it’s useful to you to know: 
+   * In Twiddle, the environment.js file is not used. All ENV values, including “environment” have to be set in twiddle.json. 
+   * This application uses the conventional structure, not the pods structure.
  * Mocks:
    * The application mocks HTTP requests with Mirage.  
    * The mocks are fully complete to meet the spec. You should not need to modify the mock data in the “mirage” directory.  
-   * Mirage has been configured to output API requests and responses to the console. 
- * In Twiddle, if you use File > Add, the component JS files are created using syntax for “Native Components”. 
-   The examples in this application and the Ember guides use “Classic Component” syntax. You may create components to use “Classic Component” syntax. 
- * If you are familiar with Ember development, it’s useful to you to know: 
-   * In Twiddle, the environment.js file is not used. All ENV values, including “environment” have to be set in twiddle.json. 
-   * This application uses the conventional structure, not the pods structure. 
+   * Mirage has been configured to output API requests and responses to the console.  
+ * The PO has seen and approved the "Home”, "Airports", and “About” screen content. 
+ * All tests must pass when done.
 
 # MVP REQUIREMENTS
 

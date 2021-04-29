@@ -12,7 +12,7 @@ and how you work with the team, not your Ember expertise.)
 # NOTES FROM YOUR TEAM LEAD
  * You're developing this application in an online editor called Twiddle.
    * In Twiddle, if you use File > Add, the component JS files are created using syntax for “Native Components”. The examples in this application and the Ember guides use “Classic Component” syntax. You may create components to use “Classic Component” syntax. 
- * Running Tests:
+ * Running Tests in Twiddle:
    * The "Run Tests" button in Twiddle doesn't work, so because TDD is difficult in this interface, new tests aren't required.
    * To run tests in Twiddle: Update twiddle.json.  
      * Set “options.enable-testing” to true. 

@@ -22,10 +22,13 @@ Make use of any resources available to you, including any internet search tools 
       * Name 
       * ICAO – A 4-character code assigned by the International Civil Aviation Org. 
       *  IATA – A 3-character code assigned by the International Air Transport Assoc. 
+  * Passengers - A list of all passengers
+    * Each passenger belongs to only 1 flight. 
+    * Passenger data SHALL be populated from another application and must also be stored locally.
 * Each section SHALL have a screen with a list of items.  
 * Clicking on an item from the list SHALL navigate to a page with detail about the item. 
-* Users SHALL be able to read, create, update and delete each item. 
-* Each passenger belongs to only 1 flight. Passenger data SHALL be populated from another application and must also be stored locally. Passenger data SHALL be read-only.
+* Users SHALL be able to read, create, update and delete each Flight & Airport. 
+* Passenger data SHALL be read-only.
  
 # TASK
  

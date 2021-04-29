@@ -36,7 +36,7 @@ Complete a spec for the API endpoints, including:
 * URI
 * HTTP methods
 * Response body
-* HTTP status code for successful response
+* HTTP status code(s)
 * Query parameters each endpoint will need 
 
 When done, present your proposal to your team lead and describe how the UI will be implemented against this API. 

@@ -11,7 +11,7 @@ Make use of any resources available to you, including any internet search tools 
 * The application SHALL have the following sections: 
   * Flights – A list of flights. 
     * Details for each flight contain: 
-      * Number – The flight designator 
+      * Flight Number – The flight designator 
       * Departure airport – The airport from which the flight will depart. 
       * Arrival airport – The airport to which the flight will arrive.
       * Departure time 
@@ -19,9 +19,9 @@ Make use of any resources available to you, including any internet search tools 
       * Passengers – Passenger data consists of First Name, Last Name, and Flight 
   * Airports – A list of airports. 
     * Detail for each airport contain: 
-      * Name 
+      * Airport Name 
       * ICAO – A 4-character code assigned by the International Civil Aviation Org. 
-      *  IATA – A 3-character code assigned by the International Air Transport Assoc. 
+      * IATA – A 3-character code assigned by the International Air Transport Assoc. 
   * Passengers - A list of passengers.
     * Each passenger belongs to only 1 flight. 
     * Passenger data SHALL be populated from another application and must also be stored locally.

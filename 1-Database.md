@@ -12,8 +12,8 @@ Make use of any resources available to you, including any internet search tools 
   * Flights – A list of flights. 
     * Details for each flight contain: 
       * Number – The flight designator 
-      * Origin airport – The airport from which the flight will leave 
-      * Destination airport – The airport to which the flight will arrive 
+      * Departure airport – The airport from which the flight will depart. 
+      * Arrival airport – The airport to which the flight will arrive.
       * Departure time 
       * Arrival time
       * Passengers – Passenger data consists of First Name, Last Name, and Flight 
